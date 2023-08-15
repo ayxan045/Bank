@@ -1,0 +1,22 @@
+.howMuch {
+  height: 100vh;
+  background: #414141;
+  h4 {
+    color: #ccc;
+    font-size: 70px;
+    text-align: center;
+    margin: 40px;
+  }
+  .howMuchBtn {
+    font-size: 80px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #686767;
+    background: #ccc;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      color: rgb(15, 32, 12);
+    }
+  }
+}

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  height: 100vh;
+  background: rgb(190, 9, 190);
+}
+.home .login {
+  text-align: center;
+}
+.home .login .welcome {
+  color: #fff;
+  font-size: 50px;
+  padding-top: 10rem;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.home .login .loginInput {
+  padding: 10px;
+  margin: 10px;
+  width: 20%;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  border: none;
+}
+.home .login .btnLogin {
+  width: 130px;
+  transition: 0.3s ease-in-out;
+  margin-top: 10px;
+  font-weight: 900;
+}
+.home .login .btnLogin:hover {
+  color: rgb(190, 9, 190);
+}
+
+.cashing {
+  height: 100vh;
+  background: rgb(50, 50, 242);
+}
+.cashing .cashingBtn {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #fff;
+  padding: 30px;
+  transition: 0.2s ease-in-out;
+}
+.cashing .cashingBtn:hover {
+  border: 2px solid rgb(10, 235, 10);
+  color: rgb(10, 235, 10);
+}
+
+.howMuch {
+  height: 100vh;
+  background: #414141;
+}
+.howMuch h4 {
+  color: #ccc;
+  font-size: 70px;
+  text-align: center;
+  margin: 40px;
+}
+.howMuch .howMuchBtn {
+  font-size: 80px;
+  font-weight: 600;
+  border-radius: 10px;
+  color: #686767;
+  background: #ccc;
+  margin-top: 20px;
+  transition: 0.3s ease-in-out;
+}
+.howMuch .howMuchBtn:hover {
+  color: rgb(15, 32, 12);
+}/*# sourceMappingURL=style.css.map */
